@@ -1,5 +1,5 @@
 <?php
-namespace mowzs\think\composer;
+namespace think\composer;
 
 use Composer\Package\PackageInterface;
 use Composer\Repository\InstalledRepositoryInterface;
