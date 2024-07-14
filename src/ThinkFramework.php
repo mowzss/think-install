@@ -14,7 +14,7 @@ class ThinkFramework extends LibraryInstaller implements \Composer\Installer\Ins
      */
     public function getInstallPath(PackageInterface $package)
     {
-        if ('topthink/framework' !== $package->getPrettyName()) {
+        if ('mowzss/framework' !== $package->getPrettyName()) {
             throw new InvalidArgumentException('Unable to install this library!');
         }
 
