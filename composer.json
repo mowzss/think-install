@@ -1,0 +1,25 @@
+{
+  "type": "composer-plugin",
+  "name": "mowzss/think-installer",
+  "license": "Apache-2.0",
+  "description": "Plugin Installer",
+  "autoload": {
+    "psr-4": {
+      "think\\composer\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=7.2",
+    "ext-json": "*",
+    "symfony/process": "^5.4 || ^6.0 || *",
+    "composer-plugin-api": "^1.0 || ^2.0 || *"
+  },
+  "require-dev": {
+    "composer/composer": "^1.0 || ^2.0"
+  },
+  "extra": {
+    "class": [
+      "think\\composer\\Service"
+    ]
+  }
+}
